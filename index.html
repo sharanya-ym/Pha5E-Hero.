@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHA5E Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FR/<u>EN</u></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="loading-page">
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+            <path
+                d="M415.44 512h-95.11L212.12 357.46v91.1L125.69 512H28V29.82L68.47 0h108.05l123.74 176.13V63.45L386.69 0h97.69v461.5zM38.77 35.27V496l72-52.88V194l215.5 307.64h84.79l52.35-38.17h-78.27L69 13zm82.54 466.61l80-58.78v-101l-79.76-114.4v220.94L49 501.89h72.34zM80.63 10.77l310.6 442.57h82.37V10.77h-79.75v317.56L170.91 10.77zM311 191.65l72 102.81V15.93l-72 53v122.72z" />
+        </svg>
+
+
+        <div class="name-container">
+            <div class="logo-name">Loading</div>
+        </div>
+    </div>
+
+    <section class="hero-section text-light">
+        <h1>
+            IMAGINING<br>UNIQUE<br>CONCEPTS<br>AND DIGITAL<br>EXPERIENCES
+        </h1>
+
+        <div class="img-container" style="top: 120px; left: 330px;" id="img-container-1">
+            <img src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/bigger-science_thumbnail-2.png"
+                alt="">
+            <div id="img1-div">
+                <h1>Bigger<br />Science</h1>
+                <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Immersive Experience / WebGL /
+                    Gaming</h3>
+            </div>
+        </div>
+
+        <div class="img-container" style="top: 160px; right: 300px;" id="img-container-2">
+            <img src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/map-interactive.png"
+                alt="">
+            <div id="img2-div">
+                <h1>Mucem</h1>
+                <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Exponential Websites</h3>
+            </div>
+        </div>
+
+        <div class="img-container" style="bottom: 150px; left: 240px;" id="img-container-3">
+            <img src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/Capture%20da%C3%8CeI%C3%8Ccran%202024-01-04%20aI%C3%8C%2016.41.06-2.png"
+                alt="">
+            <div id="img3-div">
+                <h1>Unganisha</h1>
+                <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Exponential Websites/WebGL/3D</h3>
+            </div>
+        </div>
+
+        <div class="img-container" style="bottom: 120px; right: 260px;" id="img-container-4">
+            <img src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/Capture-d%C3%A2e%C3%8Ccran-2023-04-03-a%C3%8C-10.59.43_2-2.jpg"
+                alt="">
+            <div id="img4-div">
+                <h1>Olive Tree</h1>
+                <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Interactive Installation/Real Time</h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="logic.js"></script>
+
+</html>
