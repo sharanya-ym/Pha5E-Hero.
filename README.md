@@ -8,7 +8,8 @@ This project is a recreation of the Pha5E website's hero section, featuring anim
 
 
 
-⚡ Features
+⚡ Features:
+
 ✅ Smooth hover effects
 ✅ Mouse movement-based interactions
 ✅ Responsive navbar (Bootstrap)
@@ -16,7 +17,8 @@ This project is a recreation of the Pha5E website's hero section, featuring anim
 ✅ SVG-based logo integration
 
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
+
 1)HTML5 - Structure of the webpage
 2)CSS3 - Styling and layout
 3)JavaScript (Vanilla JS) - Dynamic interactions
@@ -24,7 +26,7 @@ This project is a recreation of the Pha5E website's hero section, featuring anim
 5)Bootstrap 5 - Responsive design and navbar
 
 
-📥 Installation & Setup
+📥 Installation & Setup:
 
 1)Clone the repository:
 git clone https://github.com/sharanya-ym/Pha5E-Hero.git
@@ -35,9 +37,12 @@ Or use Live Server if you're using VS Code.
 
 
 
-💡 How to Use
+💡 How to Use:
+
 Hover over elements to see animations.
+
 Click on navbar links to navigate.
+
 The project adapts to different screen sizes
 
 
